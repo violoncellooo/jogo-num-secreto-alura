@@ -1,8 +1,7 @@
 let listaNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
-
 
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
@@ -66,10 +65,3 @@ function reiniciarJogo() {
     exibirMensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled', true)
 }
-
-
-
-
-
-
-
